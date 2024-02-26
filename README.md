@@ -1,0 +1,2 @@
+# euler-javascript-solutions
+none
