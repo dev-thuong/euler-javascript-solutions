@@ -12,9 +12,11 @@
 // largestPrimeFactor(13195) should return 29.
 // largestPrimeFactor(600851475143) should return 6857.
 
-// Method 1: Using the prime number definition: A prime number is a number that can only be divided by itself and 1 without remainders
-function largestPrimeFactor(number) {
+// Method 1: Using the prime number definition:
+// A prime number is a number that can only be divided by itself and 1 without remainders
 
+function largestPrimeFactor(number) {
+  
   // Get the list of factors of "number"
   let diviArr = [];
   for (let i = 2; i <= number; i++) {
